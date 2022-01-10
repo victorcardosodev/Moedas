@@ -1,0 +1,46 @@
+1) Objetivo
+
+R: O objetivo do site será mostrar simbolos (das moedas e outros tipos) e suas historias,
+além disso não terá objetivo monetário, apenas adiquirir experiencia.
+
+2) terá tela de login ?
+
+R: Sim, login por usuario criado na hroa, Google, facebook e Linkedin.
+
+3)  moedas
+
+R: Euro, Dolar, Reais, Yen, Libra Esterlina.
+
+4) simbolos
+
+R: lírio, ansata, âncora, Om, til, mjolnir,yin yang, pentagrama.
+
+5) organização das telas de moedas
+
+R:
+    1ª apresentação do assunto e porque os simbolos e as moedas existem
+    2ª Real
+    3ª Dolar
+    4ª Euro
+    5ª Libra Esterlina
+    6ª Yen
+
+Nas telas terão o motivo de terem sido escolhidos e quais eram antes delas.
+
+6) oeeganização das telas de simbolos
+
+R:
+    1ª apresentação do motivo de os simbolos serem tão importantes e uma breve historia geral
+    2ª Yin Yang
+    3ª pentagrama
+    4ª âncora
+    5ª lírio
+    6ª ansata
+    7ª Om
+    8ª mjolnir
+    9ª til
+
+7) Linguagens que serão usadas
+
+R: JS inicialmente
+
