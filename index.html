@@ -16,11 +16,11 @@
 <body>
     <header>
         <h1>Moedas</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </span>
 
-        <menu>
+        <menu id="menuheader">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Dolar</a></li>
@@ -580,7 +580,16 @@
         <p>Criado por <a href="#">Victor Cardoso</a></p>
     </footer>
 
-    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        function clickMenu() {
+            if (menuheader.style.display == 'none') {
+                menuheader.style.display = 'block';
+            }
+            else {
+                menuheader.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
