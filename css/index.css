@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+menu {
+    display: none;
+}
+
+header li {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    border: 1.5px solid black;
+    margin: ;
+}
+
+a {
+    text-decoration: none;
+}
