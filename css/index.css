@@ -51,6 +51,7 @@ ul {
 
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
     border-bottom: 1px solid rgba(128, 128, 128, 0.616);
     margin-top: 20px;
 }
@@ -84,4 +85,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+div {
+    float: left;
+}
+
+figcaption {
+    font-family: sans-serif;
+    width: 230px;
+    font-size: 12px;
+    line-height: 17.3px;
 }
