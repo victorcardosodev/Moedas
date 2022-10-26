@@ -49,6 +49,10 @@ ul {
     text-align: left;
 }
 
+li {
+    font-family: sans-serif;
+}
+
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -88,7 +92,8 @@ a:hover {
 }
 
 div {
-    float: left;
+    display: block;
+    text-align: center;
 }
 
 figcaption {
@@ -96,4 +101,5 @@ figcaption {
     width: 230px;
     font-size: 12px;
     line-height: 17.3px;
+    margin: auto;
 }
