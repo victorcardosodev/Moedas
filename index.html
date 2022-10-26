@@ -13,26 +13,26 @@
     <title>Moedas</title>
 </head>
 
-<body>
-    <header>
-        <h1>Moedas</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-        </span>
-
-        <menu id="menuheader">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Dolar</a></li>
-                <li><a href="#">Real</a></li>
-                <li><a href="#">Euro</a></li>
-                <li><a href="#">Yen</a></li>
-                <li><a href="#">Libra</a></li>
-            </ul>
-        </menu>
-    </header>
-
+<body onresize="mudarTamanho()">
     <main>
+        <header>
+            <h1>Moedas</h1>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+            </span>
+    
+            <menu id="menuheader">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Dolar</a></li>
+                    <li><a href="#">Real</a></li>
+                    <li><a href="#">Euro</a></li>
+                    <li><a href="#">Yen</a></li>
+                    <li><a href="#">Libra</a></li>
+                </ul>
+            </menu>
+        </header>
+        
         <section>
             <article>
                 <em><strong>nota: </strong>Para outros significados, veja <a href="#">Moeda (desambiguação)</a></em>
@@ -121,7 +121,7 @@
                 </p>
 
 
-                <div>
+                <div class="img">
                     <figure>
                         <img src="imagens/Yap_Stone_Money.jpg" alt="">
                         <figcaption>A antiga moeda de <a href="#">Yap</a> era composta por pedras gigantes, denominadas
@@ -584,6 +584,15 @@
         function clickMenu() {
             if (menuheader.style.display == 'none') {
                 menuheader.style.display = 'block';
+            }
+            else {
+                menuheader.style.display = 'none';
+            }
+        }
+
+        function mudarTamanho() {
+            if (window.innerWidth >= 768) {
+                menuheader.style.display = 'inline';
             }
             else {
                 menuheader.style.display = 'none';

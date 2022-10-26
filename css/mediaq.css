@@ -1,6 +1,46 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+    html, body {
+        width: 100%;
+        background-color: rgb(187, 187, 247);
+    } 
+
+    header {
+        text-align: center;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    header > h1 {
+        margin-bottom: 20px;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    header > #menuheader  {
+        display: inline;
+    }
+
+    header > #menuheader > ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    header > menu#menuheader > ul > li {
+        display: inline;
+        border: none;
+        padding: 5px;
+    }
+
+    header > menu#menuheader > ul > li > a {
+        display: inline;
+        font: normal 17px sans-serif;
+    }
+
     main {
         width: 700px;
         margin: auto;
@@ -12,13 +52,20 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    header > #menuheader {
+        display: inline;
+    }
     main {
         width: 800px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    header > #menuheader {
+        display: inline;
+    }
     main {
-        width: 900px;
+        width: 1100px;
+        padding: 40px;
     }
 }

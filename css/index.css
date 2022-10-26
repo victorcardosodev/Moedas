@@ -8,18 +8,17 @@
 html, body {
     width: 96vw;
     height: 100vh;
-}
-
-header {
-    margin: 10px;
-    padding: 10px;
+    background-color: white;
 }
 
 main {
     margin: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
 }
 
-menu#menuheader {
+header > menu#menuheader {
     display: none;
 }
 
@@ -69,6 +68,7 @@ h1, h2 {
     border-bottom: 1px solid rgba(128, 128, 128, 0.616);
     margin-top: 20px;
 }
+
 h1 {
     font-size: 28px;
 }
@@ -89,7 +89,7 @@ p {
     margin-top: 10px;
 }
 
-strong {
+p > strong {
     padding: 0px;
 }
 
@@ -106,9 +106,17 @@ a:visited {
     color: red;
 }
 
+a > strong {
+    padding: 0px;
+}
+
 div {
     display: block;
     text-align: center;
+}
+
+div.img {
+    margin: 15px 15px 0px 0px;
 }
 
 figcaption {
@@ -121,6 +129,7 @@ figcaption {
 
 aside > menu {
     columns: 2;
+    margin-top: 10px;
 }
 
 footer > p {
