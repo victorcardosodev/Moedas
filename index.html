@@ -582,17 +582,17 @@
 
     <script>
         function clickMenu() {
-            if (menuheader.style.display == 'none') {
-                menuheader.style.display = 'block';
+            if (menuheader.style.display == 'block') {
+                menuheader.style.display = 'none';
             }
             else {
-                menuheader.style.display = 'none';
+                menuheader.style.display = 'block';
             }
         }
 
         function mudarTamanho() {
             if (window.innerWidth >= 768) {
-                menuheader.style.display = 'inline';
+                menuheader.style.display = 'block';
             }
             else {
                 menuheader.style.display = 'none';

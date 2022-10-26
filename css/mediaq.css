@@ -22,7 +22,7 @@
     }
 
     header > #menuheader  {
-        display: inline;
+        display: block;
     }
 
     header > #menuheader > ul {
@@ -55,18 +55,12 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    header > #menuheader {
-        display: inline;
-    }
     main {
         width: 800px;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1950px) {
-    header > #menuheader {
-        display: inline;
-    }
     main {
         width: 1070px;
     }
@@ -75,10 +69,6 @@
 @media screen and (min-width: 1950px) {
     main {
         width: 1600px;
-    }
-
-    header > #menuheader {
-        display: inline;
     }
 
     header > h1 {
