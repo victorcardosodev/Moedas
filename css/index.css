@@ -2,7 +2,12 @@
 
 * {
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
+}
+
+html, body {
+    width: 96vw;
+    height: 100vh;
 }
 
 header {
@@ -10,7 +15,11 @@ header {
     padding: 10px;
 }
 
-menu {
+main {
+    margin: 20px;
+}
+
+menu#menuheader {
     display: none;
 }
 
@@ -29,6 +38,7 @@ header > menu#menuheader > ul > li > a {
 }
 
 span {
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -76,6 +86,7 @@ p {
     font-size: 14px;
     line-height: 22.4px;
     text-align: left;
+    margin-top: 10px;
 }
 
 strong {
@@ -91,6 +102,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:visited {
+    color: red;
+}
+
 div {
     display: block;
     text-align: center;
@@ -102,4 +117,19 @@ figcaption {
     font-size: 12px;
     line-height: 17.3px;
     margin: auto;
+}
+
+aside > menu {
+    columns: 2;
+}
+
+footer > p {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.575);
+    font-weight: bold;
+}
+
+footer > p > a {
+    font: bold normal 1.1em sans-serif;
+    color: red;
 }
